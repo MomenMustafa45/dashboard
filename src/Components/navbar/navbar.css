@@ -1,0 +1,73 @@
+.navbar-parent {
+  height: 81px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 10px 20px;
+}
+
+.navbar-left-side {
+  display: flex;
+  align-items: baseline;
+}
+
+.navbar-left-side .access {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 18px;
+}
+
+.navbar-left-side form select {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 24px;
+  border: 1px solid #da0d18;
+  border-radius: 4px;
+  color: #da0d18;
+  background-color: #fff;
+}
+
+/* navbar Right side */
+/* navbar Right side */
+.navbar-right-side {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right-side .navbar-search-container {
+  background-color: white;
+  border: 0.5px solid #e2e8f0;
+  border-radius: 15px;
+  width: 136px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  overflow: hidden;
+  padding: 5px 14px;
+}
+
+.navbar-right-side .navbar-search-container input {
+  border: none;
+  margin-left: 8px;
+}
+
+.navbar-right-side > i {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.navbar-right-side .navbar-img-container {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.navbar-right-side .navbar-img-container img {
+  width: 100%;
+}
