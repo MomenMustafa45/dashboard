@@ -2,6 +2,8 @@ import React from "react";
 import "./home.css";
 import image from "../../images/Image.png";
 import AnalysticCard from "../../Components/analystic-card/AnalysticCard";
+import GraphicAnalysis from "../../Components/graphic-analysis/graphic-analysis-bar/GraphicAnalysis";
+import GraphicAnalysisLine from "../../Components/graphic-analysis/graphic-analysis-line/GraphicAnalysisLine";
 
 const Home = () => {
   return (
@@ -54,7 +56,11 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="graphic-analysis-container"></section>
+      <section className="graphic-analysis-container">
+        <GraphicAnalysis />
+
+        <GraphicAnalysisLine />
+      </section>
     </main>
   );
 };
