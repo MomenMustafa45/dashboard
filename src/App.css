@@ -1,7 +1,9 @@
 .App {
   display: flex;
+  height: 100vh;
 }
 
 .pages-container {
   width: calc(100% - 254px);
+  margin-left: 254px;
 }

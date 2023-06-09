@@ -57,3 +57,9 @@
   span:last-child {
   background-color: #da0d18;
 }
+
+@media (max-width: 1200px) {
+  .graphic-analystic-parent {
+    width: 375px;
+  }
+}

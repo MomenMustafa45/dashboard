@@ -1,5 +1,6 @@
 import React from "react";
 import "./sidebar.css";
+import { Link } from "react-router-dom";
 import image from "../../images/sidebar-header-icon.png";
 
 const SideBar = () => {
@@ -14,27 +15,42 @@ const SideBar = () => {
       <div className="sidebar-links">
         <ul className="links-container">
           <li>
-            <i className="bi bi-grid-1x2"></i> Home
+            <Link to="/">
+              <i className="bi bi-grid-1x2"></i> Home
+            </Link>
           </li>
           <li>
-            <i className="bi bi-person-gear"></i> Admins
+            <Link to="/admins">
+              <i className="bi bi-person-gear"></i> Admins
+            </Link>
           </li>
           <li>
-            <i className="bi bi-cash-stack"></i> Revenue
+            <Link to="/revenue">
+              <i className="bi bi-cash-stack"></i> Revenue
+            </Link>
           </li>
           <li>
-            <i className="bi bi-cart-plus"></i> Sakes
+            <Link to="/sakes">
+              <i className="bi bi-cart-plus"></i> Sakes
+            </Link>
           </li>
           <li>
-            <i className="bi bi-cart-plus"></i> Payout
+            <Link to="/payout">
+              <i className="bi bi-cart-plus"></i> Payout
+            </Link>
           </li>
           <li>
-            <i className="bi bi-file-text"></i> Page Management
+            <Link to="/page-management">
+              <i className="bi bi-file-text"></i> Page Management
+            </Link>
           </li>
           <li>
-            <i className="bi bi-graph-up"></i> Report
+            <Link to="/report">
+              <i className="bi bi-graph-up"></i> Report
+            </Link>
           </li>
         </ul>
+
         <div className="bottom-container">
           <ul>
             <li>
